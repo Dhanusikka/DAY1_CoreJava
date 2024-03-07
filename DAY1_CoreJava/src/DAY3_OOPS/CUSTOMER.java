@@ -23,7 +23,10 @@ public class CUSTOMER {
 	public void setAddress(String address) {
 		this.address = address;
 	}
-
+	@Override
+	public String toString() {
+		return "CUSTOMER [cid = "+ cid +", cname = " + cname + ", address = " + address + "]"	;
+	}
 	}
 
 
